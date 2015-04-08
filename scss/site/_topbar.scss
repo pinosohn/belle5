@@ -1,0 +1,63 @@
+// Add some whitespace between top bar and content
+.top-bar-container, .tab-bar {
+
+}
+
+.top-bar .name {
+	h1 a { font-weight: 500; }
+}
+
+// A more subtle background color for the active menu item
+.top-bar-section li.active:not(.has-form) a:not(.button)  {
+	background: #272727;
+}
+.top-bar-section li.active:not(.has-form) a:hover:not(.button) {
+	background: #202020;
+}
+
+#logo-wrapper {
+  width: 261px;
+  z-index: 1000;
+  position: relative;
+
+  @media screen and (max-width: 640px) {
+    width: 180px;
+    margin-bottom: 60px;
+    margin-top: -46px;
+  }
+}
+
+.top-bar-container, .tab-bar {
+  border-bottom: 1px solid $gainsboro;
+}
+
+.top-bar {
+  padding: 0px 14px;
+}
+
+.top-bar-section {
+  ul {
+    li {
+      a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.left-off-canvas-menu {
+  background: url(../assets/img/bg.jpg);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+  ul {
+
+    li {
+
+      a:hover {
+        background: rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

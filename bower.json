@@ -1,0 +1,23 @@
+{
+  "name": "foundationpress",
+  "main": [
+    "css/foundation.css",
+    "js/foundation.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "fontawesome": "~4.3.0"
+  },
+  "version": "0.0.0",
+  "authors": [
+    "stirlingsohn <stirling@glunz.ch>"
+  ],
+  "license": "MIT"
+}
